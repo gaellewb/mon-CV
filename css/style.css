@@ -1,0 +1,32 @@
+/* Font family */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-image: url(../assets/img/END.jpg) no-repeat;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    /* flex-wrap: nowrap; */
+}
+
+.monContainer {
+    padding: 0 50px 20px 50px;
+}
+.myPhoto {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+
+.mesCoordonnees {
+    margin-top: 20px;
+}
+
+.mesCoordonnees .fa-solid {
+    padding-right: 20px;
+}
