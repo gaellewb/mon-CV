@@ -40,12 +40,12 @@ header {
     padding-right: 20px;
 }
 
-.myEmail, .myTel {
+.social {
     text-decoration: none;
     color: brown;
 }
 
-.myEmail:hover, .myTel:hover {
+.social:hover {
     color: rgb(3, 163, 163);
 }
 
@@ -63,7 +63,11 @@ header {
     line-height: 0.5rem;
 }
 
-.capitale {
+.capitaleGras {
     text-transform: uppercase;
+    font-weight: 800;
 }
 
+section {
+    margin-bottom: 20px;
+}
