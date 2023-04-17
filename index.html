@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/mediaQueries.css">
 
 <!-- CDN FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 </head>
 <body>
@@ -33,7 +33,7 @@
     <header>
         <div class="monContainer monBg">
             <div>
-                <h1 class="myName mt-4">Gaëlle Walczyna</h1>
+                <h1 class="myName mt-3">Gaëlle Walczyna</h1>
             </div>
             <div class="myJob">
                 <h2>
@@ -47,44 +47,43 @@
     </header>
 
     <main>
-        <div class="wrapper">
 <!-- Coordonnees  -->
-        <section class="container mesCoordonnees one">
-            <div class="row">
-                <div class=" offset-2 col-1">
+        <section class="container mesCoordonnees">
+            <div class="row wrapper">
+                <div class=" offset-2 col-1 one">
                     <i class="fa-solid fa-cake-candles"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 two" >
                     <p>12 avril 1983</p>
                 </div>
-                <div class=" offset-2 col-1">
+                <div class="offset-2 col-1 three">
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 four" >
                     <p>La Seyne sur Mer</p>
                 </div>
-                <div class=" offset-2 col-1">
+                <div class="offset-2 col-1 five">
                     <i class="fa-solid fa-phone"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 six" >
                     <p><a href="tel:+33650918737" class="social">06 50 91 87 37</a></p>
                 </div>
-                <div class=" offset-2 col-1">
+                <div class=" offset-2 col-1 seven">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 height" >
                     <p><a class="social" href="mailto:gaellewalczyna@gmail.com">gaellewalczyna@gmail.com</a></p>
                 </div>
-                <div class="offset-2 col-1">
+                <div class="offset-2 col-1 nine">
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 ten" >
                     <p><a class="social" href="https://www.linkedin.com/in/gaellewalczyna/" target="_blank">gaellewalczyna</a></p>
                 </div>
-                <div class="offset-2 col-1">
+                <div class="offset-2 col-1 eleven">
                     <i class="fa-brands fa-github"></i>
                 </div>
-                <div class="col-9" >
+                <div class="col-9 twelve" >
                     <p><a class="social" href="https://github.com/gaellewb" target="_blank">gaellewb</a></p>
                 </div>
             </div>
@@ -123,7 +122,7 @@
                     <p class="cache">Bootstrap</p>
                 </div>
                 <div class="col-2">
-                    <p><i class="fa-brands fa-symfony fa-2xl"></i></p>
+                    <p><img src="assets/img/jquery.png" alt="Icone jQuery"></p>
                     <p class="cache">jQuery</p>
                 </div>
                 <div class="col-2">
@@ -326,13 +325,13 @@
         <section class="container mesSoftsSkills">
             <div class="row">
                 <h3 class="surligne">Softs skills</h3>
-                <div class="offset-2 col-10 mt-2">
+                <div class="offset-2 col-10 offset-lg-1 col-lg-3 mt-2">
                     <p>Travail en équipe</p>
                 </div>
-                <div class="offset-2 col-10">
+                <div class="offset-2 col-10 offset-lg-0 col-lg-5 mt-lg-2">
                     <p>Sens de l'organisation et du détail</p>
                 </div>
-                <div class="offset-2 col-10">
+                <div class="offset-2 col-10 offset-lg-0 col-lg-3 mt-lg-2">
                     <p>Capacité d'écoute</p>
                 </div>
             </div>
@@ -358,12 +357,12 @@
                     <p>Voyages</p>
                 </div>
                 <div class="col-4 col-md-2 mt-2 loisir">
-                    <p><i class="fa-solid fa-camera"></i></p>
-                    <p>Photo</p>
-                </div>
-                <div class="col-3 col-md-2 mt-2 loisir">
                     <p><i class="fa-solid fa-sitemap"></i></p>
                     <p>Généalogie</p>
+                </div>
+                <div class="col-3 col-md-2 mt-2 loisir">
+                    <p><i class="fa-solid fa-camera"></i></p>
+                    <p>Photo</p>
                 </div>
                 <div class="offset-2 col-4 mt-md-2 offset-md-0 col-md-2 loisir">
                     <p><i class="fa-solid fa-person-swimming"></i></p>
@@ -375,7 +374,13 @@
                 </div>
             </div>
         </section>
-        </div>
+        <footer>
+            <hr>
+            <div>
+                <p><span class="copyright">Copyright</span> &#169; 2023 GaëlleW</p>
+            </div>
+
+        </footer>
     </main>
 
 <!-- CDN Bootstrap -->
