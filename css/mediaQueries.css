@@ -6,8 +6,9 @@
         color: rgb(97, 93, 93);
     } 
 
-    /* i{
-        font-style: normal;
-    } */
+    .monBg {
+        background: url(../assets/img/monumentValley2.jpg) no-repeat;
+        background-position: center;
+    }
 }
 

@@ -12,11 +12,8 @@
 
 header {
     display: flex;
-    background-image: url(../assets/img/END.jpg) no-repeat;
-    background-position: center;
     flex-direction: column;
     text-align: center;
-    /* flex-wrap: nowrap; */
 }
 
 .myName {
@@ -24,9 +21,21 @@ header {
     font-size:xx-large;
 }
 
+h1 {
+    text-shadow: 2px 2px 2px rgb(236, 35, 35);
+
+}
+
 .monContainer {
     padding: 0 50px 20px 50px;
+    box-shadow: 0px 0px 20px 0px rgb(236, 174, 150);
 }
+
+.monBg {
+    background: url(../assets/img/monumentValley.jpg) no-repeat;
+    background-position: center;
+}
+
 .myPhoto {
     max-width: 150px;
     margin-bottom: 30px;
@@ -44,7 +53,6 @@ header {
     text-decoration: none;
     color: brown;
 }
-
 .social:hover {
     color: rgb(3, 163, 163);
 }
@@ -52,6 +60,10 @@ header {
 .surligne {
     background-color: rgb(236, 174, 150);
     padding-top: 3px;
+}
+
+hr {
+    color: brown;
 }
 
 .cache {
